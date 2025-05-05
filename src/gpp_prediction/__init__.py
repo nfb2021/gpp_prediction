@@ -18,4 +18,4 @@ __all__ = [
     "calc_gpp",
 ]
 
-__version__ = "0.1.4"
+__version__ = "0.1.5"
