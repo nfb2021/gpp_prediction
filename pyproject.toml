@@ -7,10 +7,10 @@ name = "gpp-prediction"
 version = "0.1.0"
 description = "A package for predicting gross primary production (GPP)"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.9"
 license = {file = "LICENSE"}
 authors = [
-    {name = "Nicolas Bader", email = "nicolas.bader@tuwien.ac.at"},
+    {name = "Your Name", email = "your.email@example.com"},
 ]
 keywords = ["gpp", "ecology", "environmental science"]
 classifiers = [
