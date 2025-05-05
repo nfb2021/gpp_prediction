@@ -4,12 +4,14 @@ on:
   release:
     types: [created]
 
+# Full permissions block must be at the top level, not just at the job level
+permissions:
+  id-token: write  # Required for trusted publishing
+  contents: read
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    permissions:
-      id-token: write  # Required for trusted publishing
-      contents: read
     steps:
     - uses: actions/checkout@v4
     - name: Set up Python
